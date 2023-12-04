@@ -1,0 +1,41 @@
+.navbar{
+    background-color: #fa8cef;
+    margin-bottom: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px; /* Ajusta la altura según tus necesidades */
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list li{
+    font-size: 88px;
+    margin-bottom: 5px;
+    font-family: "Argentum Sans";
+    margin-right: 190px;
+    color: black;
+}
+
+.logo {
+    max-width: 145px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.icono-casa {
+    font-size: 29px;
+}

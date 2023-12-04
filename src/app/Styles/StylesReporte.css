@@ -1,0 +1,109 @@
+.cuerpo {
+    background-color: #ffffff;
+}
+
+.reportes{
+    position: absolute;
+    margin-top: 175px;
+    left: 660px;
+    color: black;
+    font-size: 30px;
+    text-decoration: underline #fa8cef;
+}
+
+.btn-pdf button{
+    background-color: red;
+    margin-top: 265px;
+    margin-left: 600px;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    font-family: "Bauhaus 93", fantasy;
+}
+
+.btn-pdf button:hover{
+    transform:translateX(-90px); /* Agrandar el botón al 120% */
+    margin-right: 10px;
+}
+
+.btn-stats button{
+    background-color: #84b6ff;
+    margin-left: 800px;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    font-family: "Bauhaus 93", fantasy;
+}
+
+.btn-stats button:hover{
+    transform:translateX(90px); /* Agrandar el botón al 120% */
+    margin-right: 10px;
+}
+
+
+.btn-gra button{
+    background-color: #7fea94;
+    margin-left: 600px;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    font-family: "Bauhaus 93", fantasy;
+}
+
+.btn-gra button:hover{
+    transform:translateX(-90px); /* Agrandar el botón al 120% */
+    margin-right: 10px;
+}
+
+
+.btn {
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #40B3A2;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    margin-left: 700px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .95;
+}
+
+.btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+}
