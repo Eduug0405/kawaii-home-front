@@ -16,7 +16,7 @@ const Ventas = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get("http://localhost:3000/productos");
+            const response = await axios.get("http://44.206.187.223/productos");
             setProductos(response.data.data);
         } catch (error) {
             console.error("Error al obtener datos:", error);
@@ -100,7 +100,7 @@ const Ventas = () => {
         console.log('Datos de venta a enviar:', datosVenta)
         try {
             console.log( JSON.stringify(datosVenta));
-            const response = await axios.post('http://localhost:3000/ventas', datosVenta)
+            const response = await axios.post('http://44.206.187.223/ventas', datosVenta)
             console.log('Datos de venta guardados:', response.data);
         } catch (error) {
             if (error.response) {

@@ -13,7 +13,7 @@ const Reporte = () =>{
     const fetchReportData = async (selectedDate) => {
         try {
             const formattedDate = selectedDate.toISOString().split('T')[0];
-            const response = await fetch(`http://localhost:3000/ventas?fecha=${formattedDate}`);
+            const response = await fetch(`http://44.206.187.223/ventas?fecha=${formattedDate}`);
         } catch (error) {
             console.error('Error fetching report data:', error);
         }

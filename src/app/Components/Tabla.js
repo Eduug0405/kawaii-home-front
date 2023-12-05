@@ -17,7 +17,7 @@ import axios from "axios";
 
     const fetchData = async () => {
         try {
-            const response = await axios.get("http://localhost:3000/productos",);
+            const response = await axios.get("http://44.206.187.223/productos",);
             //const productosArray = Object.values(response.data);
             setProductos(response.data.data);
             console.log(response)
@@ -44,7 +44,7 @@ import axios from "axios";
                 precio: nuevoPrecio
             };
 
-            const response = await fetch(`http://localhost:3000/productos/${id}`, {
+            const response = await fetch(`http://44.206.187.223/productos/${id}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json'

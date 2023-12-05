@@ -17,7 +17,7 @@ const Boton = () => {
         };
 
         try {
-            const apiUrl = "http://localhost:3000/productos";
+            const apiUrl = "http://44.206.187.223/productos";
             const options = {
                 method: 'POST',
                 headers: {
